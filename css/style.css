@@ -1,0 +1,272 @@
+/* global */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1085px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+/* global end */
+
+/* header */
+
+header {
+    /* background-color: darkgreen; */
+    background-image: url('../images/header-bg-image.jpg');
+    min-height: 660px;
+}
+
+.navbar,
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    padding: 20px 0;
+    margin-bottom: 170px;
+}
+
+header a {
+    color: white;
+}
+
+
+.logo {
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.nav-ul {
+    max-width: 560px;
+    width: 100%;
+}
+
+.main-title {
+    font-size: 62px;
+    font-weight: 800;
+    color: white;
+    max-width: 580px;
+    line-height: 73px;
+    margin-bottom: 25px;
+}
+
+.secondary-title {
+    color: white;
+    font-size: 14px;
+    line-height: 19px;
+    max-width: 390px;
+}
+
+/* header end */
+
+/* form */
+
+.reserve {
+    position: absolute;
+    left: 0;
+    right: 0;
+    transform: translateY(calc((-50% - 25px)));
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.arrows {
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+.left-arrow,
+.right-arrow {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.left-arrow:hover,
+.right-arrow:hover {
+    background-color: #5863F8;
+    cursor: pointer;
+}
+
+.form {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    padding: 32px 100px 42px;
+    background-color: white;
+    box-shadow: 0px 1px 89px -44px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 1px 89px -44px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 1px 89px -44px rgba(0, 0, 0, 0.75);
+}
+
+.form>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.form label {
+    font-size: 13px;
+    color: #5863F8;
+    margin-bottom: 10px;
+}
+
+.form input {
+    height: 50px;
+    padding: 0 15px;
+    background-color: #EEEEEE;
+    border: none;
+    outline: none;
+}
+
+.form input::placeholder {
+    color: #CECECE;
+}
+
+.send {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5863F8;
+    border: none;
+}
+
+
+
+/* form end */
+
+
+/* s 1 */
+.s-1 {
+    padding: 164px 0 90px;
+}
+
+.s-1-wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s-1-content {
+    max-width: 450px;
+}
+
+.s-1-content>h5, .s-2 h4 {
+    font-size: 14px;
+    color: #5863F8;
+    margin-bottom: 20px;
+}
+
+.s-1-content>h2, .s-2 h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.s-1-content>p:first-of-type {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+
+.s-1-content>p:last-of-type {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.s-1-button {
+    padding: 15px 45px;
+    background-color: #5863F8;
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.s-1-button>img {
+    margin-left: 20px;
+}
+
+
+.s-1-images {
+    max-width: 536px;
+    width: 100%;
+}
+
+.s-1-images>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.s-1-first-image {
+    margin: 0 16px 16px 0;
+}
+
+
+
+/* s 1 end */
+
+
+/* s 2 */
+.s-2 {
+    background-image: url('../images/s-2-bg.jpg');
+    padding: 100px 0;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 260px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.card>div {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: #5863F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-2 h2 {
+    color: white;
+    margin-bottom: 40px;
+    width: 390px;
+}
+
+/* s 2 end */
