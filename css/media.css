@@ -1,0 +1,124 @@
+@media (max-width: 1170px) {
+    .container {
+        padding: 0 5%;
+    }
+
+    .form {
+        padding: 32px 50px 42px;
+    }
+
+
+    .s-1-content {
+        max-width: 400px;
+        margin-right: 20px;
+    }
+    
+    .s-1-images {
+        max-width: 470px;
+    }
+
+    .s-1-images-wrapper > img {
+        width: 48%;
+    }
+
+    /* .card {
+        margin-right: 40px;
+        min-width: 260px;
+    } */
+}
+
+
+@media (max-width: 920px) {
+    .bars {
+        display: block;
+    }
+
+    .nav-ul {
+        display: none;
+    }
+
+    .main-title {
+        font-size: 40px;
+        line-height: 50px;
+
+    }
+
+    .form {
+        flex-direction: column;
+        max-width: 400px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form > div {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .send {
+        width: 100%;
+    }
+
+    .s-1 {
+        padding-top: 250px;
+    }
+
+    .s-1-wraper {
+        flex-direction: column;
+    }
+
+    .s-1-content {
+        max-width: 100%;
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+
+    .s-1-content > h5{
+        text-align: center;
+    }
+
+    .s-1-button {
+        margin: auto;
+    }
+
+    .s-1-images {
+        max-width: 100%;
+    }
+
+    .s-2 h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .s-2 h4 {
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .main-title, .s-1-content > h2, .s-2 h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .secondary-title {
+        line-height: 16px;
+    }
+
+    .form {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 475px) {
+    .s-1-button {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .reserve {
+        transform: translateY(calc((-50%)));
+    }
+}

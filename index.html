@@ -13,6 +13,7 @@
             rel="stylesheet"
         />
         <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/media.css" />
     </head>
     <body>
         <header>
@@ -28,6 +29,10 @@
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">contact</a></li>
                     </ul>
+
+                    <div class="bars">
+                        <img src="https://cdn-icons-png.flaticon.com/512/5602/5602186.png" alt="bars">
+                    </div>
                 </nav>
 
                 <h1 class="main-title">The best hotel you will ever need</h1>
@@ -42,13 +47,13 @@
         <div class="reserve">
             <div class="container form-wrapper">
                 <div class="arrows">
-                    <div class="left-arrow">
+                    <div class="left-arrow" onclick="decreaseIndex()">
                         <img
                             src="images/arrow-left-black.svg"
                             alt="left arrow"
                         />
                     </div>
-                    <div class="right-arrow">
+                    <div class="right-arrow" onclick="increaseIndex()">
                         <img
                             src="images/arrow-right-black.svg"
                             alt="right arrow"
@@ -83,7 +88,7 @@
                             placeholder="rooms"
                         />
                     </div>
-                    <button class="send">
+                    <button type="button" class="send" onclick="changeBgImage()">
                         <img src="images/send.svg" alt="send" />
                     </button>
                 </form>
@@ -114,11 +119,11 @@
                     </button>
                 </div>
                 <div class="s-1-images">
-                    <div>
-                        <img src="images/stairs.jpg" alt="stairs" />
-                        <img src="images/pool.jpg" alt="pool" />
+                    <div class="s-1-images-wrapper">
+                        <img class="w-100" src="images/stairs.jpg" alt="stairs" />
+                        <img class="w-100" src="images/pool.jpg" alt="pool" />
                     </div>
-                    <img src="images/cafe.jpg" alt="cafe" />
+                    <img class="w-100" src="images/cafe.jpg" alt="cafe" />
                 </div>
             </div>
         </section>
@@ -168,8 +173,60 @@
                             elit, sed do eiusmod tempor incididunt ut
                         </p>
                     </div>
+                    <div class="card">
+                        <div>
+                            <img src="images/hotel.svg" alt="hotel" />
+                        </div>
+                        <h3>Free Wifi to stay connected</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut
+                        </p>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <img src="images/hotel.svg" alt="hotel" />
+                        </div>
+                        <h3>Free Wifi to stay connected</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut
+                        </p>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <img src="images/hotel.svg" alt="hotel" />
+                        </div>
+                        <h3>Free Wifi to stay connected</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut
+                        </p>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <img src="images/hotel.svg" alt="hotel" />
+                        </div>
+                        <h3>Free Wifi to stay connected</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut
+                        </p>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <img src="images/hotel.svg" alt="hotel" />
+                        </div>
+                        <h3>Free Wifi to stay connected</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
+
+        <script src="js/main.js"></script>
     </body>
 </html>
